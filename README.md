@@ -2,6 +2,36 @@
 Exploring High-quality Target Domain Information for Unsupervised Domain Adaptive Semantic Segmentatio.
 
 In this paper, we construct an efficient non-distillation method for UDA Semantic Segmentation. 
+#### Data Preparation
+To run on GTA5-to-Cityscapes and SYNTHIA-to-Cityscapes, you need to download the respective datasets. Once they are downloaded, you can either modify the config files directly, or organize/symlink the data in the `datasets/` directory as follows: 
+```
+datasets
+├── cityscapes
+│   ├── gtFine
+│   │   ├── train
+│   │   │   ├── aachen
+│   │   │   └── ...
+│   │   └── val
+│   └── leftImg8bit
+│       ├── train
+│       └── val
+├── GTA5
+│   ├── images
+│   ├── labels
+│   └── list
+├── SYNTHIA
+│   └── RAND_CITYSCAPES
+│       ├── Depth
+│       │   └── Depth
+│       ├── GT
+│       │   ├── COLOR
+│       │   └── LABELS
+│       ├── RGB
+│       └── synthia_mapped_to_cityscapes
+├── city_list
+├── gta5_list
+└── synthia_list
+```
 
 #### Initial Models
  * For GTA5-to-Cityscapes, we start with a model pretrained on the source (GTA5): [Download](https://drive.google.com/file/d/1lpMUoDKZHhoAtx-LRvgkNHdQ7Uq_I7u1/view?usp=sharing)

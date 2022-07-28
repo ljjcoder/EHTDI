@@ -11,7 +11,6 @@ In this paper, we construct an efficient non-distillation method for UDA Semanti
 #### Pretrained models
  * GTA5-to-Cityscapes: [Download](https://drive.google.com/file/d/1vNQHBitIDAiuY8IkmRDfVBShWX6qDiaC/view?usp=sharing)
  * SYNTHIA-to-Cityscapes: [Download](https://drive.google.com/file/d/1ICHI3mDpIQn82o5Q-VFOtPPEMLK-Ijf9/view?usp=sharing)
- * 
 ## Main Results
 
 ### GTA5-to-CityScapes and SYNTHIA-to-CityScapes

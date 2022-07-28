@@ -12,7 +12,6 @@
 
 *Indicates additional edge enhancement loss is added. This part of the code will be released later.
 
-In this paper, we construct an efficient non-distillation method for UDA Semantic Segmentation. 
 #### Data Preparation
 To run on GTA5-to-Cityscapes and SYNTHIA-to-Cityscapes, you need to download the respective datasets. Once they are downloaded, you can either modify the config files directly, or organize/symlink the data in the `datasets/` directory as follows: 
 ```

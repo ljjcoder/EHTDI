@@ -6,7 +6,7 @@ Our method does not require the distillation technique and requires only 1*3090 
 ## Main Results
 
 ### GTA5-to-CityScapes and SYNTHIA-to-CityScapes
-|                      |   GTA5-to-CityScapes|   |   SYNTHIA-to-CityScapes| |
+|                      |   GTA5-to-CityScapes|   |  | SYNTHIA-to-CityScapes| |
 |----------------------|---------------------|---|--|----------------------|-|
 |                      |mIoU                 |   |mIoU_13|mIoU_16|
 | Ours        |58.8 |   [Model](https://drive.google.com/file/d/1vNQHBitIDAiuY8IkmRDfVBShWX6qDiaC/view?usp=sharing)| 57.8 | 64.6 |[Model](https://drive.google.com/file/d/1ICHI3mDpIQn82o5Q-VFOtPPEMLK-Ijf9/view?usp=sharing)  |

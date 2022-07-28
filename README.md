@@ -20,6 +20,7 @@ In this paper, we construct an efficient non-distillation method for UDA Semanti
 |                      |mIoU                 ||mIoU_13|mIoU_16|
 | Ours        |58.8|   | 57.8 | 64.6  |
 | Ours*        |62.0|   | 61.2 | 69.2  |
+
 **Indicates additional edge enhancement loss is added. This part of the code will be released later.
 
 ## Acknowledgments

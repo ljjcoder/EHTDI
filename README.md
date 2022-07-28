@@ -1,5 +1,6 @@
 # EHTDI
-"Exploring High-quality Target Domain Information for Unsupervised Domain Adaptive Semantic Segmentation" was accepted at ACM MM'22.
+Official implementation of "Exploring High-quality Target Domain Information for Unsupervised Domain Adaptive Semantic Segmentation".
+Accepted by ACM MM'22.
 
 Our method does not require the distillation technique and requires only 1*3090 GPU.
 

@@ -1,5 +1,5 @@
 # EHTDI
-Exploring High-quality Target Domain Information for Unsupervised Domain Adaptive Semantic Segmentation.
+"Exploring High-quality Target Domain Information for Unsupervised Domain Adaptive Semantic Segmentation" was accepted at ACM MM'22.
 
 ## Main Results
 

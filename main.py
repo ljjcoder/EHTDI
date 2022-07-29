@@ -840,7 +840,13 @@ class Trainer():
         # Remove DP/DDP if it exists
         state_dict = {k.replace('module.', ''): v for k,
                       v in state_dict.items()}
-        if False:
+        for k in state_dict.keys():
+            if 'layer5' in k or 'layer6' in k:
+                num_class_pretrain=state_dict[k].shape[0]
+                num_class_model=self.model.state_dict()[k].shape[0]
+                #exit()
+        #exit()
+        if num_class_model<num_class_pretrain:
             bad_key=[]
             new_fc={}
             for k in state_dict.keys():

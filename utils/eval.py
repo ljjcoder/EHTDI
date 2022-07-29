@@ -10,7 +10,9 @@ np.seterr(divide='ignore', invalid='ignore')
 synthia_set_16 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 15, 17, 18]
 synthia_set_13 = [0, 1, 2, 6, 7, 8, 10, 11, 12, 13, 15, 17, 18]
 synthia_set_16_to_13 = [0, 1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-
+name_classes_synthia=[]
+for i in synthia_set_16:
+    name_classes_synthia.append(name_classes[i])
 
 class Eval():
     def __init__(self, num_class):
@@ -18,7 +20,10 @@ class Eval():
         self.confusion_matrix = np.zeros((self.num_class,) * 2)
         self.ignore_index = None
         self.synthia = True if num_class == 16 else False
-
+        if self.synthia:
+            self.name_classes=name_classes_synthia
+        else:
+            self.name_classes=name_classes
     def Pixel_Accuracy(self):
         if np.sum(self.confusion_matrix) == 0:
             print("Attention: pixel_total is zero!!!")
@@ -109,7 +114,7 @@ class Eval():
             pc = str(round(Precision[ind_class] * 100, 2)) if not np.isnan(Precision[ind_class]) else 'nan'
             cr = str(round(Class_ratio[ind_class] * 100, 2)) if not np.isnan(Class_ratio[ind_class]) else 'nan'
             pr = str(round(Pred_retio[ind_class] * 100, 2)) if not np.isnan(Pred_retio[ind_class]) else 'nan'
-            log_fn('===>' + name_classes[ind_class] + ':\t' + pa + '\t' + iou + '\t' + pc + '\t' + cr + '\t' + pr)
+            log_fn('===>' + self.name_classes[ind_class] + ':\t' + pa + '\t' + iou + '\t' + pc + '\t' + cr + '\t' + pr)
 
     # generate confusion matrix
     def __generate_matrix(self, gt_image, pre_image):

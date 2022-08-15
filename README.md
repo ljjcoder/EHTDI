@@ -1,5 +1,5 @@
 # EHTDI
-Official implementation of "Exploring High-quality Target Domain Information for Unsupervised Domain Adaptive Semantic Segmentation".
+Official implementation of "Exploring High-quality Target Domain Information for Unsupervised Domain Adaptive Semantic Segmentation". [here](https://arxiv.org/abs/2208.06100)
 
 Accepted by ACM MM'22.
 

@@ -12,7 +12,7 @@ Our method does not require the distillation technique and requires only 1*3090 
 |----------------------|---------------------|---|------------------------|-|
 |                      |mIoU                 |   |mIoU_13  (mIoU_16)|
 | Ours        |58.8 |   [Model](https://drive.google.com/file/d/1vNQHBitIDAiuY8IkmRDfVBShWX6qDiaC/view?usp=sharing)|  64.6 (57.8) |[Model](https://drive.google.com/file/d/1ICHI3mDpIQn82o5Q-VFOtPPEMLK-Ijf9/view?usp=sharing)  |
-| Ours*        |62.0|   |  69.2    (61.2)  |
+| Ours*        |62.0|   |  69.2    (61.3)  |
 
 *Indicates additional edge enhancement loss is added. This part of the code will be released later.
 

@@ -12,7 +12,7 @@ Our method does not require the distillation technique and requires only 1*3090 
 |----------------------|---------------------|---|------------------------|-|
 |                      |mIoU                 |   |mIoU_13  (mIoU_16)|
 | Ours        |58.8 |   [Model](https://drive.google.com/file/d/1vNQHBitIDAiuY8IkmRDfVBShWX6qDiaC/view?usp=sharing)|  64.6 (57.8) |[Model](https://drive.google.com/file/d/1ICHI3mDpIQn82o5Q-VFOtPPEMLK-Ijf9/view?usp=sharing)  |
-| Ours*        |62.0|  [Model]([https://drive.google.com/file/d/1MLh61JU8JGfgdeBWnylFXMjhMh49lasa/view?usp=sharing](https://drive.google.com/file/d/1YmgnjG2bBIP7U1Egj2Yka4NCXGcF0ctd/view?usp=sharing)) |  69.2    (61.3) [Model](https://drive.google.com/file/d/1MLh61JU8JGfgdeBWnylFXMjhMh49lasa/view?usp=sharing) |
+| Ours*        |62.0|  [Model](https://drive.google.com/file/d/1YmgnjG2bBIP7U1Egj2Yka4NCXGcF0ctd/view?usp=sharing) |  69.2    (61.3)  |[Model](https://drive.google.com/file/d/1MLh61JU8JGfgdeBWnylFXMjhMh49lasa/view?usp=sharing)  |
 
 *Indicates additional edge enhancement loss is added. This part of the training code will be released later.
 

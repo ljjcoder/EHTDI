@@ -46,6 +46,10 @@ datasets
 ├── gta5_list
 └── synthia_list
 ```
+#### environment
+```
+pytorch1.10.1+cu113
+```
 
 #### Initial Models
  * For GTA5-to-Cityscapes, we start with a model pretrained on the source (GTA5): [Download](https://drive.google.com/file/d/1lpMUoDKZHhoAtx-LRvgkNHdQ7Uq_I7u1/view?usp=sharing)

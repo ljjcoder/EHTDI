@@ -3,7 +3,7 @@ Official implementation of "Exploring High-quality Target Domain Information for
 
 Accepted by ACM MM'22.
 
-## Our method does not require the distillation technique and requires only 1*3090 GPU.
+#### Our method does not require the distillation technique and requires only 1*3090 GPU.
 
 ## Main Results
 

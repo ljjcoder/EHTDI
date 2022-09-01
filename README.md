@@ -64,3 +64,5 @@ sh train.sh
 ## Acknowledgments
 
 This code is based on the implementations of [**PixMatch: Unsupervised Domain Adaptation via Pixelwise Consistency Training**](https://github.com/lukemelas/pixmatch) and  [**DACS: Domain Adaptation via Cross-domain Mixed Sampling**](https://github.com/vikolss/DACS).
+
+

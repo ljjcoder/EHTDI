@@ -52,6 +52,7 @@ pytorch1.10.1+cu113
 ```
 
 #### Initial Models
+* ImageNet pretrain: [Download](http://vllab.ucmerced.edu/ytsai/CVPR18/DeepLab_resnet_pretrained_init-f81d91e8.pth)
  * For GTA5-to-Cityscapes, we start with a model pretrained on the source (GTA5): [Download](https://drive.google.com/file/d/1lpMUoDKZHhoAtx-LRvgkNHdQ7Uq_I7u1/view?usp=sharing)
  * For SYNTHIA-to-Cityscapes, we start with a model pretrained on the source (SYNTHIA): [Download](https://drive.google.com/file/d/1Xuo0WAJosoJP37PAsvaPzczw6v64fVe3/view?usp=sharing)
 

@@ -45,7 +45,14 @@ datasets
 ├── city_list
 ├── gta5_list
 └── synthia_list
+
+
+### create symbolic link：
 ```
+ln -s /data/lijj/pixmatch_output_61.5/ ./outputs
+```
+
+
 #### environment
 ```
 pytorch1.10.1+cu113

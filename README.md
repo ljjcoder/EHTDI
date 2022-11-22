@@ -5,7 +5,7 @@ Accepted by ACM MM'22.
 
 #### Our method does not require the distillation technique and requires only 1*3090 GPU.
 #### News!!!!!!!!!!!!
-We released the code for edge_enhencemant loss
+We released the code for edge enhancement loss
 
 ## Main Results
 

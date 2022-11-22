@@ -5,7 +5,7 @@ Accepted by ACM MM'22.
 
 #### Our method does not require the distillation technique and requires only 1*3090 GPU.
 #### News!!!!!!!!!!!!
-
+We released the code for edge_enhencemant loss
 
 ## Main Results
 
@@ -17,7 +17,6 @@ Accepted by ACM MM'22.
 | Ours*        |62.0|  [Model](https://drive.google.com/file/d/1YmgnjG2bBIP7U1Egj2Yka4NCXGcF0ctd/view?usp=sharing) |  69.2    (61.3)  |[Model](https://drive.google.com/file/d/1MLh61JU8JGfgdeBWnylFXMjhMh49lasa/view?usp=sharing)  |
 
 *Indicates a new edge enhancement loss is added and still no distillation technology is required. 
-We released the code for edge_enhencemant loss.
 
 #### Data Preparation
 To run on GTA5-to-Cityscapes and SYNTHIA-to-Cityscapes, you need to download the respective datasets. Once they are downloaded, you can either modify the config files directly, or organize/symlink the data in the `datasets/` directory as follows: 
